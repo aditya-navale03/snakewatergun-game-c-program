@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<stdlib.h>
-#include<time.h>
+#include<time.h >
 
 int snakewatergun(char you ,  char comp) {
     //return 1 if you win ,-1 if lose and 0 if draw
@@ -42,7 +42,7 @@ int main() {
     else if(number >33 && number <66) {
         comp ='w';
     } else {
-        comp = 'g';
+        comp =  'g';
     }
 
     printf("enter 'S' for snake\nenter 'W' for water\nenter 'G' for gun\n");
