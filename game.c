@@ -2,6 +2,12 @@
 #include<stdlib.h>
 #include<time.h >
 
+/*
+	@author: Aditya Navale
+	@email: aditya.navale.399@gmail.com
+	
+*/
+
 int snakewatergun(char you ,  char comp) {
     //return 1 if you win ,-1 if lose and 0 if draw
     //draw case
